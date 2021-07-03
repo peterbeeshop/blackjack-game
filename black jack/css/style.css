@@ -1,0 +1,70 @@
+.container-5 {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  border: black solid 1px;
+}
+.flex-blackjack-row-1,
+.flex-blackjack-row-2,
+.flex-blackjack-row-3 {
+  display: flex;
+  border: black solid 1px;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.flex-blackjack-row-1,
+.flex-blackjack-row-2 {
+  background-color: #08d819ea;
+  color: white;
+}
+.flex-blackjack-row-1 div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+  border: 1px solid black;
+  align-items: center;
+}
+.flex-blackjack-row-1 div {
+  border: black solid 1px;
+  padding: 10px;
+  flex: 1;
+  text-align: center;
+  height: 350px;
+}
+.flex-blackjack-row-1 img {
+  width: 25%;
+  padding: 10px;
+}
+.flex-blackjack-row-2 div {
+  border: solid 1px grey;
+  padding: 10px;
+}
+table,
+th,
+td {
+  border: 2px solid rgba(34, 43, 9, 0.856);
+  padding: 0px;
+  margin: 0;
+}
+
+.btn {
+  font-size: 30px;
+  border-radius: 10px;
+}
+.btn-primary {
+  background-color: blue;
+  margin-right: 10px;
+  color: white;
+}
+.btn-secondary {
+  background-color: yellow;
+  margin-right: 10px;
+  color: black;
+}
+.btn-info {
+  background-color: red;
+  color: white;
+}
